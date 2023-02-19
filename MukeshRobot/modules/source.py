@@ -9,16 +9,16 @@ from telethon import __version__ as s
 from MukeshRobot import OWNER_ID, dispatcher
 from MukeshRobot import pbot as client
 
-Mukesh = "https://telegra.ph/file/3117ae688980a7163ab5e.jpg"
+Mondo = "https://t.me/mondo_lover"
 
 
 @client.on_message(filters.command(["repo", "source"]))
 async def repo(client, message):
     await message.reply_photo(
-        photo=Mukesh,
+        photo=Mondo,
         caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [𝐌𝐮𝐤𝐞𝐬𝐡](tg://user?id={OWNER_ID})
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [ᴍᴏɴᴅᴏ](tg://user?id={OWNER_ID})
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -34,7 +34,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://github.com/noob-mukesh/MukeshRobot",
+                        url="https://te.legra.ph/file/ddcb156251c1624d09253.mp4",
                     ),
                 ]
             ]
@@ -43,6 +43,6 @@ async def repo(client, message):
 
 
 __mod_name__ = "Rᴇᴩᴏ✦"
-_help__ = """ /repo to get repo 
-             /Source to get repo
+_help__ = """ /Hater to get repo 
+             /Lover to get repo
 """
